@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.item {
+  padding: 1rem;
+  border: 2px solid #000;
+  height: fit-content;
+}
+
+.item > video > source,
+.item > img {
+  height: auto;
+}
