@@ -45,16 +45,17 @@
       </li>
     </ul>
     <p>
-      ※コンバージョンボタンのエリアにホバーすると、動画のコントロールパネルが出ていません。
-      ※ボタンを押すと、<u>アラート</u>が出ます。
+      ※コンバージョンボタンのエリアにホバーすると、動画のコントロールパネルが出ていません。<br>
+      ※ボタンを押すと、<u>アラート</u>が出ます。<br/>
+      ※テキストリンクを押すとブラウザのURLにパラメターが追加されます。（/avatar.html#test-link）
     </p>
     <div class="container">
       <video autoplay muted loop controls>
         <source src="assets/sample_ORIGINAL.mp4" />
       </video>
       <div class="conversion">
-        <button onclick="showAlert('BUTTON #1')">BUTTON #1</button>
-        <button onclick="showAlert('BUTTON #2')">BUTTON #2</button>
+        <button onclick="showAlert('BUTTON')">BUTTON</button>
+        <a href="#test-link">普通のdiv</a>
       </div>
     </div>
   </body>
